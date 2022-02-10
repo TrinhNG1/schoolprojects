@@ -43,14 +43,14 @@ const lineArray = [line1, line2, line3, line4, line5, line6, line7, line8];
 let winningLine = null;
 
 // メッセージ
-const msgtxt1 = '<p class="image"><img src ="img/penguins.jpg" width=61px height=61px></p><p class="text">Penguins Attack!</p>';
-const msgtxt2 = '<p class="image"><img src ="img/whitebear.jpg" width=61px height=61px></p><p class="text">WhiteBears Attack!</p>';
-const msgtxt3 = '<p class="image"><img src ="img/penguins.jpg" width=61px height=61px></p><p class="text animate__animated animate__lightSpeedInRight">Penguins Win!!</p>';
-const msgtxt4 = '<p class="image"><img src ="img/whitebear.jpg" width=61px height=61px></p><p class="text animate__animated animate__lightSpeedInLeft">WhiteBears Win!!</p>';
-const msgtxt5 = '<p class="image"><img src ="img/penguins.jpg" width=61px height=61px><img src ="img/whitebear.jpg" width=61px height=61px></p><p class="text animate__bounceIn">Draw!!</p>';
+const msgtxt1 = '<p class="image"><img src ="img/L.png" width=61px height=61px></p><p class="text">L Attacks!</p>';
+const msgtxt2 = '<p class="image"><img src ="img/kira.png" width=61px height=61px></p><p class="text">Kira Attacks!</p>';
+const msgtxt3 = '<p class="image"><img src ="img/L.png" width=61px height=61px></p><p class="text animate__animated animate__lightSpeedInRight">L Wins!!</p>';
+const msgtxt4 = '<p class="image"><img src ="img/kira.png" width=61px height=61px></p><p class="text animate__animated animate__lightSpeedInLeft">Kira Wins!!</p>';
+const msgtxt5 = '<p class="image"><img src ="img/L.png" width=61px height=61px><img src ="img/kira.png" width=61px height=61px></p><p class="text animate__bounceIn">Draw!!</p>';
 
 // Sound
-let gameSound = ["sound/click_sound1.mp3","sound/click_sound2.mp3","sound/penwin_sound.mp3","sound/bearwin_sound.mp3","sound/draw_sound.mp3"];
+let gameSound = ["sound/click_sound1.mp3","sound/click_sound2.mp3","sound/L_sound.mp3","sound/kira_sound.mp3","sound/draw_sound.mp3"];
 // **********************************
 // ページ本体が読み込まれたタイミングで実行するコード
 // **********************************
