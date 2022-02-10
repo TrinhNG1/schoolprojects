@@ -1,0 +1,207 @@
+@charset "utf-8";
+/* 基本要素 */
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+a { color: darkseagreen; }
+a:visited { color: #a8a8a8; }
+a:hover {
+  color: #988564;
+  font-weight: bold;
+  text-decoration: none;
+}
+a img { transition: opacity 0.2s linear; }
+a:hover img { opacity: 0.7; }
+h1, h2, h3, h4, h5, h6 { margin-top: 0; }
+p {
+  margin-top: 0;
+  line-height: 1.6;
+    text-align: justify;
+}
+/* コンテンツ全体（トップページ以外の各ページ共通）*/
+#wrapper {
+  width: 980px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.back{
+  text-align: left;
+}
+#btn99{
+  padding: 0.5em;
+  border-radius: 0.3em;
+  color: whitesmoke;
+  font-size: 1.5em;
+  background: rgb(26, 212, 212);
+  cursor: pointer; /*カーソルをポインターの形（かたち）にする*/
+}
+/* ヘッダー（各ページ共通）*/
+header {
+  width: 980px;
+  margin: 0 auto;
+}
+header h1 {
+  float: left;
+  margin: 5px 0 10px;
+}
+header #header_contact {
+  float: right;
+  margin: 35px 0;
+}
+/* ナビゲーション（各ページ共通） */
+#global_navi {
+  width: 980px;
+  clear: both;
+  overflow: hidden;
+  margin: 16px auto;
+}
+#global_navi ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#global_navi ul li {
+  width: 195px;
+  float: left;
+  margin-right: 1px;
+  text-align: center;
+}
+#global_navi ul li a {
+  display: block;
+  padding: 16px;
+  background-color: lightgray;
+  color: #fff;
+  text-decoration: none;
+}
+#global_navi ul li.current a { 
+  background-color: darkolivegreen; 
+}
+#global_navi ul li a:hover { 
+  background-color: darkgray;
+}
+/* トップページメイン画像 */
+#m_visual {
+   width: 980px;
+  height: 440px;
+  margin: 0 auto 25px;
+}
+
+/* メイン（トップページ以外の各ページ共通）*/
+#main {
+  width: 730px;
+  float: left;
+}
+#main h2 {
+  font-size: 22px;
+  border: 1px solid #352b23;
+  padding: 11px 22px;
+  border-radius: 5px;
+}
+#main h3 {
+  font-size: 18px;
+  border-left: solid 3px #352b23;
+  padding: 4px 9px 4px 14px;
+}
+
+
+/* サイドバー（トップページ以外の各ページ共通） */
+#sidebar {
+  width: 220px;
+  float: right;
+}
+#side_banner { margin-bottom: 30px; }
+#side_banner h2 {
+  background-color: forestgreen;
+  color: #fff;
+  padding: 7px;
+  font-size: 14px;
+  text-align: center;
+}
+#side_banner ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#side_banner ul li { margin-bottom: 10px; }
+/* フッター（各ページ共通） */
+footer {
+  background-color: darkseagreen;
+  text-align: center;
+}
+footer #footer_nav {
+  background-color: #efefef;
+  padding: 10px 0;
+}
+footer #footer_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer #footer_nav li {
+  display: inline;
+  border-left: solid 1px #aaa;
+  margin-left: 8px;
+  padding-left: 8px;
+  font-size: smaller;
+}
+footer #footer_nav li:last-child {
+  border-right: solid 1px #aaa;
+  padding: 0 8px;
+}
+footer small {
+  display: block;
+  padding: 8px 0;
+  color: #fff;
+}
+
+/* manhattan.html */
+#gallery ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#gallery ul li {
+  width: 220px;
+  margin: 0 30px 30px 0;
+  padding: 10px 0;
+  border: solid 1px #ccc;
+  float: left;
+  text-align: center;
+  color: #b7a077;
+  font-weight: bold;
+  box-shadow: 2px 2px 3px rgba(0,0,0,0.1);
+}
+#gallery ul li:nth-child(3n) { 
+  margin-right: 0; 
+}
+
+/* hitoritabi.html */
+#point  { margin-bottom: 30px; }
+#point section {
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#point figure {
+  float: right;
+  margin: 0 0 0 16px;
+}
+#point figcaption {
+  font-size: 12px;
+  color: #9C9689;
+  text-align: center;
+}
+#news dl { overflow: hidden; }
+#news dt {
+  float: left;
+  width: 8em;
+  margin-bottom: 10px;
+  clear: both;
+}
+#news dd {
+  margin-left: 8em;
+  margin-bottom: 10px;
+}
+
+
