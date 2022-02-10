@@ -19,7 +19,7 @@ body{
     Meiryo,
     sans-serif;
     text-align: center;
-    background-image: url(../img/topimg.JPG);
+    background-image: url("../img/topimg.JPG");
     background-size: cover;
     overflow: hidden;
 }
