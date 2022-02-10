@@ -18,7 +18,7 @@ body{
   text-align: center;
   background-color:rgba(233, 168, 227, 0.6);
   background-blend-mode: soft-light;
-  background-image: url(../../img/img1.jpg);
+  background-image: url(../img/img1.jpg);
 }
 
 header, main, footer, h1, h2, h3, p, div, table, .field, .btn-area, .filler01 {
